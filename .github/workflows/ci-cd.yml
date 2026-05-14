@@ -93,4 +93,4 @@ jobs:
 
           git add .
           git diff --staged --quiet || git commit -m "ci: update ${{ env.IMAGE_NAME }} image to ${{ needs.build-and-push.outputs.image_tag }}"
-          git push
+          git push 
