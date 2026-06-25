@@ -7,8 +7,8 @@ on:
 
 env:
   HARBOR_REGISTRY: 210.90.24.172:8080
-  HARBOR_PROJECT: project-sep
-  STUDENT_ID: leeyoungkon
+  HARBOR_PROJECT: camit
+  STUDENT_ID: robot$myrobot
   IMAGE_NAME: resttemplateserver-sep
 
   # 별도 GitOps 저장소
